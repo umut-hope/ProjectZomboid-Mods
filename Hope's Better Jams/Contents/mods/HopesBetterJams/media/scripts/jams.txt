@@ -1,0 +1,466 @@
+module Base
+{
+
+
+    item JarofAppleJam
+    {
+        DisplayName = Jar of Apple Jam,
+		DisplayCategory = Food,
+		Type = Food,
+		Weight = 0.8,
+		CantEat = TRUE,
+		CannedFood = TRUE,
+		Icon = AppleJam,
+		WorldStaticModel = JarofAJ_Ground,
+
+    }
+
+    item JarofAppleJamOpen
+    {
+		DisplayName = Opened Jar of Apple Jam,
+		DisplayCategory = Food,
+		Type = Food,
+		CannedFood = TRUE,
+		Weight = 0.8,
+		EatType = can,
+		EvolvedRecipe = Beverage:2;Beverage2:2;Cake:5;Sandwich:2;Sandwich Baguette:2;FruitSalad:2;HotDrink:2;HotDrinkRed:2;HotDrinkWhite:2;HotDrinkSpiffo:2;HotDrinkTea:2;Pancakes:2;Waffles:2;ConeIcecream:2;PieSweet:5;Toast:2;Oatmeal:2,
+		FoodType = NoExplicit,
+		EvolvedRecipeName = Apple Jam,
+		ReplaceOnUse = EmptyJar,
+		DaysFresh = 9,
+		DaysTotallyRotten = 24,
+		HungerChange = -30,
+		UnhappyChange = -10,
+		Icon = OpenAppleJam,
+		WorldStaticModel = OpenJarofAJ_Ground,
+    }
+	
+    item JarofStrawberrieJam
+    {
+        DisplayName = Jar of Strawberry Jam,
+		DisplayCategory = Food,
+		Type = Food,
+		Weight = 0.8,
+		CantEat = TRUE,
+		CannedFood = TRUE,
+		Icon = StrawberrieJam,
+		WorldStaticModel = JarofSJ_Ground,
+
+    }
+
+    item JarofBlackberryJam
+    {
+        DisplayName = Jar of Blackberry Jam,
+		DisplayCategory = Food,
+		Type = Food,
+		Weight = 0.8,
+		CantEat = TRUE,
+		CannedFood = TRUE,
+		Icon = BlackberryJam,
+		WorldStaticModel = JarofBlJ_Ground,
+
+    }
+
+	    item JarofBlueberryJam
+    {
+        DisplayName = Jar of Blueberry Jam,
+		DisplayCategory = Food,
+		Type = Food,
+		Weight = 0.8,
+		CantEat = TRUE,
+		CannedFood = TRUE,
+		Icon = BlueberryJam,
+		WorldStaticModel = JarofBluJ_Ground,
+
+    }
+
+	    item JarofBeautyberryJam
+    {
+        DisplayName = Jar of Beautyberry Jam,
+		DisplayCategory = Food,
+		Type = Food,
+		Weight = 0.8,
+		CantEat = TRUE,
+		CannedFood = TRUE,
+		Icon = BeautyberryJam,
+		WorldStaticModel = JarofBeJ_Ground,
+
+    }	
+	
+	    item JarofWinterberryJam
+    {
+        DisplayName = Jar of Winterberry Jam,
+		DisplayCategory = Food,
+		Type = Food,
+		Weight = 0.8,
+		CantEat = TRUE,
+		CannedFood = TRUE,
+		Icon = WinterberryJam,
+		WorldStaticModel = JarofWbJ_Ground,
+
+    }	
+
+	    item JarofCherryJam
+    {
+        DisplayName = Jar of Cherry Jam,
+		DisplayCategory = Food,
+		Type = Food,
+		Weight = 0.8,
+		CantEat = TRUE,
+		CannedFood = TRUE,
+		Icon = CherryJam,
+		WorldStaticModel = JarofCJ_Ground,
+
+    }
+
+	    item JarofRosehipJam
+    {
+        DisplayName = Jar of Rosehip Jam,
+		DisplayCategory = Food,
+		Type = Food,
+		Weight = 0.8,
+		CantEat = TRUE,
+		CannedFood = TRUE,
+		Icon = RosehipJam,
+		WorldStaticModel = JarofRJ_Ground,
+
+    }
+
+		item JarofOrangeJam
+    {
+        DisplayName = Jar of Orange Jam,
+		DisplayCategory = Food,
+		Type = Food,
+		Weight = 0.8,
+		CantEat = TRUE,
+		CannedFood = TRUE,
+		Icon = OrangeJam,
+		WorldStaticModel = JarofOJ_Ground,
+
+    }
+
+		item JarofLemonJam
+    {
+        DisplayName = Jar of Lemon Jam,
+		DisplayCategory = Food,
+		Type = Food,
+		Weight = 0.8,
+		CantEat = TRUE,
+		CannedFood = TRUE,
+		Icon = LemonJam,
+		WorldStaticModel = JarofLeJ_Ground,
+
+    }	
+
+		item JarofLimeJam
+    {
+        DisplayName = Jar of Lime Jam,
+		DisplayCategory = Food,
+		Type = Food,
+		Weight = 0.8,
+		CantEat = TRUE,
+		CannedFood = TRUE,
+		Icon = LimeJam,
+		WorldStaticModel = JarofLiJ_Ground,
+
+    }
+
+		item JarofGrapeJam
+    {
+        DisplayName = Jar of Grape Jam,
+		DisplayCategory = Food,
+		Type = Food,
+		Weight = 0.8,
+		CantEat = TRUE,
+		CannedFood = TRUE,
+		Icon = GrapeJam,
+		WorldStaticModel = JarofGJ_Ground,
+
+    }		
+
+		item JarofGrapefruitJam
+    {
+        DisplayName = Jar of Grapefruit Jam,
+		DisplayCategory = Food,
+		Type = Food,
+		Weight = 0.8,
+		CantEat = TRUE,
+		CannedFood = TRUE,
+		Icon = GrapefruitJam,
+		WorldStaticModel = JarofGfJ_Ground,
+
+    }		
+
+		item JarofPearJam
+    {
+        DisplayName = Jar of Pear Jam,
+		DisplayCategory = Food,
+		Type = Food,
+		Weight = 0.8,
+		CantEat = TRUE,
+		CannedFood = TRUE,
+		Icon = PearJam,
+		WorldStaticModel = JarofPJ_Ground,
+
+    }
+
+    	item JarofStrawberrieJamOpen
+    {
+		DisplayName = Opened Jar of Strawberry Jam,
+		DisplayCategory = Food,
+		Type = Food,
+		CannedFood = TRUE,
+		Weight = 0.8,
+		EatType = can,
+		EvolvedRecipe = Beverage:2;Beverage2:2;Cake:5;Sandwich:2;Sandwich Baguette:2;FruitSalad:2;HotDrink:2;HotDrinkRed:2;HotDrinkWhite:2;HotDrinkSpiffo:2;HotDrinkTea:2;Pancakes:2;Waffles:2;ConeIcecream:2;PieSweet:5;Toast:2;Oatmeal:2,
+		FoodType = NoExplicit,
+		EvolvedRecipeName = Strawberry Jam,
+		ReplaceOnUse = EmptyJar,
+		DaysFresh = 9,
+		DaysTotallyRotten = 24,
+		HungerChange = -30,
+		UnhappyChange = -10,
+		Icon = OpenStrawberrieJam,
+		WorldStaticModel = OpenJarofSJ_Ground,
+    }
+
+    	item JarofBlackberryJamOpen
+    {
+		DisplayName = Opened Jar of Blackberry Jam,
+		DisplayCategory = Food,
+		Type = Food,
+		CannedFood = TRUE,
+		Weight = 0.8,
+		EatType = can,
+		EvolvedRecipe = Beverage:2;Beverage2:2;Cake:5;Sandwich:2;Sandwich Baguette:2;FruitSalad:2;HotDrink:2;HotDrinkRed:2;HotDrinkWhite:2;HotDrinkSpiffo:2;HotDrinkTea:2;Pancakes:2;Waffles:2;ConeIcecream:2;PieSweet:5;Toast:2;Oatmeal:2,
+		FoodType = NoExplicit,
+		EvolvedRecipeName = Blackberry Jam,
+		ReplaceOnUse = EmptyJar,
+		DaysFresh = 9,
+		DaysTotallyRotten = 24,
+		HungerChange = -30,
+		UnhappyChange = -10,
+		Icon = OpenBlackberryJam,
+		WorldStaticModel = OpenJarofBlJ_Ground,
+    }
+
+    	item JarofBlueberryJamOpen
+    {
+		DisplayName = Opened Jar of Blueberry Jam,
+		DisplayCategory = Food,
+		Type = Food,
+		CannedFood = TRUE,
+		Weight = 0.8,
+		EatType = can,
+		EvolvedRecipe = Beverage:2;Beverage2:2;Cake:5;Sandwich:2;Sandwich Baguette:2;FruitSalad:2;HotDrink:2;HotDrinkRed:2;HotDrinkWhite:2;HotDrinkSpiffo:2;HotDrinkTea:2;Pancakes:2;Waffles:2;ConeIcecream:2;PieSweet:5;Toast:2;Oatmeal:2,
+		FoodType = NoExplicit,
+		EvolvedRecipeName = Blueberry Jam,
+		ReplaceOnUse = EmptyJar,
+		DaysFresh = 9,
+		DaysTotallyRotten = 24,
+		HungerChange = -30,
+		UnhappyChange = -10,
+		Icon = OpenBlueberryJam,
+		WorldStaticModel = OpenJarofBluJ_Ground,
+    }
+
+    	item JarofBeautyberryJamOpen
+    {
+		DisplayName = Opened Jar of Beautyberry Jam,
+		DisplayCategory = Food,
+		Type = Food,
+		CannedFood = TRUE,
+		Weight = 0.8,
+		EatType = can,
+		EvolvedRecipe = Beverage:2;Beverage2:2;Cake:5;Sandwich:2;Sandwich Baguette:2;FruitSalad:2;HotDrink:2;HotDrinkRed:2;HotDrinkWhite:2;HotDrinkSpiffo:2;HotDrinkTea:2;Pancakes:2;Waffles:2;ConeIcecream:2;PieSweet:5;Toast:2;Oatmeal:2,
+		FoodType = NoExplicit,
+		EvolvedRecipeName = Beautyberry Jam,
+		ReplaceOnUse = EmptyJar,
+		DaysFresh = 9,
+		DaysTotallyRotten = 24,
+		HungerChange = -30,
+		UnhappyChange = -10,
+		Icon = OpenBeautyberryJam,
+		WorldStaticModel = OpenJarofBeJ_Ground,
+    }
+
+   		item JarofWinterberryJamOpen
+    {
+		DisplayName = Opened Jar of Winterberry Jam,
+		DisplayCategory = Food,
+		Type = Food,
+		CannedFood = TRUE,
+		Weight = 0.8,
+		EatType = can,
+		EvolvedRecipe = Beverage:2;Beverage2:2;Cake:5;Sandwich:2;Sandwich Baguette:2;FruitSalad:2;HotDrink:2;HotDrinkRed:2;HotDrinkWhite:2;HotDrinkSpiffo:2;HotDrinkTea:2;Pancakes:2;Waffles:2;ConeIcecream:2;PieSweet:5;Toast:2;Oatmeal:2,
+		FoodType = NoExplicit,
+		EvolvedRecipeName = Winterberry Jam,
+		ReplaceOnUse = EmptyJar,
+		DaysFresh = 9,
+		DaysTotallyRotten = 24,
+		HungerChange = -30,
+		UnhappyChange = -10,
+		Icon = OpenWinterberryJam,
+		WorldStaticModel = OpenJarofWbJ_Ground,
+    }
+
+    	item JarofCherryJamOpen
+    {
+		DisplayName = Opened Jar of Cherry Jam,
+		DisplayCategory = Food,
+		Type = Food,
+		CannedFood = TRUE,
+		Weight = 0.8,
+		EatType = can,
+		EvolvedRecipe = Beverage:2;Beverage2:2;Cake:5;Sandwich:2;Sandwich Baguette:2;FruitSalad:2;HotDrink:2;HotDrinkRed:2;HotDrinkWhite:2;HotDrinkSpiffo:2;HotDrinkTea:2;Pancakes:2;Waffles:2;ConeIcecream:2;PieSweet:5;Toast:2;Oatmeal:2,
+		FoodType = NoExplicit,
+		EvolvedRecipeName = Cherry Jam,
+		ReplaceOnUse = EmptyJar,
+		DaysFresh = 9,
+		DaysTotallyRotten = 24,
+		HungerChange = -30,
+		UnhappyChange = -10,
+		Icon = OpenCherryJam,
+		WorldStaticModel = OpenJarofCJ_Ground,
+    }
+
+    	item JarofRosehipJamOpen
+    {
+		DisplayName = Opened Jar of Rosehip Jam,
+		DisplayCategory = Food,
+		Type = Food,
+		CannedFood = TRUE,
+		Weight = 0.8,
+		EatType = can,
+		EvolvedRecipe = Beverage:2;Beverage2:2;Cake:5;Sandwich:2;Sandwich Baguette:2;FruitSalad:2;HotDrink:2;HotDrinkRed:2;HotDrinkWhite:2;HotDrinkSpiffo:2;HotDrinkTea:2;Pancakes:2;Waffles:2;ConeIcecream:2;PieSweet:5;Toast:2;Oatmeal:2,
+		FoodType = NoExplicit,
+		EvolvedRecipeName = Rosehip Jam,
+		ReplaceOnUse = EmptyJar,
+		DaysFresh = 9,
+		DaysTotallyRotten = 24,
+		HungerChange = -30,
+		UnhappyChange = -10,
+		Icon = OpenRosehipJam,
+		WorldStaticModel = OpenJarofRJ_Ground,
+    }
+
+    	item JarofOrangeJamOpen
+    {
+		DisplayName = Opened Jar of Orange Jam,
+		DisplayCategory = Food,
+		Type = Food,
+		CannedFood = TRUE,
+		Weight = 0.8,
+		EatType = can,
+		EvolvedRecipe = Beverage:2;Beverage2:2;Cake:5;Sandwich:2;Sandwich Baguette:2;FruitSalad:2;HotDrink:2;HotDrinkRed:2;HotDrinkWhite:2;HotDrinkSpiffo:2;HotDrinkTea:2;Pancakes:2;Waffles:2;ConeIcecream:2;PieSweet:5;Toast:2;Oatmeal:2,
+		FoodType = NoExplicit,
+		EvolvedRecipeName = Orange Jam,
+		ReplaceOnUse = EmptyJar,
+		DaysFresh = 9,
+		DaysTotallyRotten = 24,
+		HungerChange = -30,
+		UnhappyChange = -10,
+		Icon = OpenOrangeJam,
+		WorldStaticModel = OpenJarofOJ_Ground,
+    }
+
+    	item JarofLemonJamOpen
+    {
+		DisplayName = Opened Jar of Lemon Jam,
+		DisplayCategory = Food,
+		Type = Food,
+		CannedFood = TRUE,
+		Weight = 0.8,
+		EatType = can,
+		EvolvedRecipe = Beverage:2;Beverage2:2;Cake:5;Sandwich:2;Sandwich Baguette:2;FruitSalad:2;HotDrink:2;HotDrinkRed:2;HotDrinkWhite:2;HotDrinkSpiffo:2;HotDrinkTea:2;Pancakes:2;Waffles:2;ConeIcecream:2;PieSweet:5;Toast:2;Oatmeal:2,
+		FoodType = NoExplicit,
+		EvolvedRecipeName = Lemon Jam,
+		ReplaceOnUse = EmptyJar,
+		DaysFresh = 9,
+		DaysTotallyRotten = 24,
+		HungerChange = -30,
+		UnhappyChange = -10,
+		Icon = OpenLemonJam,
+		WorldStaticModel = OpenJarofLeJ_Ground,
+    }
+
+    	item JarofLimeJamOpen
+    {
+		DisplayName = Opened Jar of Lime Jam,
+		DisplayCategory = Food,
+		Type = Food,
+		CannedFood = TRUE,
+		Weight = 0.8,
+		EatType = can,
+		EvolvedRecipe = Beverage:2;Beverage2:2;Cake:5;Sandwich:2;Sandwich Baguette:2;FruitSalad:2;HotDrink:2;HotDrinkRed:2;HotDrinkWhite:2;HotDrinkSpiffo:2;HotDrinkTea:2;Pancakes:2;Waffles:2;ConeIcecream:2;PieSweet:5;Toast:2;Oatmeal:2,
+		FoodType = NoExplicit,
+		EvolvedRecipeName = Lemon Jam,
+		ReplaceOnUse = EmptyJar,
+		DaysFresh = 9,
+		DaysTotallyRotten = 24,
+		HungerChange = -30,
+		UnhappyChange = -10,
+		Icon = OpenLimeJam,
+		WorldStaticModel = OpenJarofLiJ_Ground,
+    }
+
+    	item JarofGrapeJamOpen
+    {
+		DisplayName = Opened Jar of Grape Jam,
+		DisplayCategory = Food,
+		Type = Food,
+		CannedFood = TRUE,
+		Weight = 0.8,
+		EatType = can,
+		EvolvedRecipe = Beverage:2;Beverage2:2;Cake:5;Sandwich:2;Sandwich Baguette:2;FruitSalad:2;HotDrink:2;HotDrinkRed:2;HotDrinkWhite:2;HotDrinkSpiffo:2;HotDrinkTea:2;Pancakes:2;Waffles:2;ConeIcecream:2;PieSweet:5;Toast:2;Oatmeal:2,
+		FoodType = NoExplicit,
+		EvolvedRecipeName = Grape Jam,
+		ReplaceOnUse = EmptyJar,
+		DaysFresh = 9,
+		DaysTotallyRotten = 24,
+		HungerChange = -30,
+		UnhappyChange = -10,
+		Icon = OpenGrapeJam,
+		WorldStaticModel = OpenJarofGJ_Ground,
+    }
+
+    	item JarofPearJamOpen
+    {
+		DisplayName = Opened Jar of Pear Jam,
+		DisplayCategory = Food,
+		Type = Food,
+		CannedFood = TRUE,
+		Weight = 0.8,
+		EatType = can,
+		EvolvedRecipe = Beverage:2;Beverage2:2;Cake:5;Sandwich:2;Sandwich Baguette:2;FruitSalad:2;HotDrink:2;HotDrinkRed:2;HotDrinkWhite:2;HotDrinkSpiffo:2;HotDrinkTea:2;Pancakes:2;Waffles:2;ConeIcecream:2;PieSweet:5;Toast:2;Oatmeal:2,
+		FoodType = NoExplicit,
+		EvolvedRecipeName = Pear Jam,
+		ReplaceOnUse = EmptyJar,
+		DaysFresh = 9,
+		DaysTotallyRotten = 24,
+		HungerChange = -30,
+		UnhappyChange = -10,
+		Icon = OpenPearJam,
+		WorldStaticModel = OpenJarofPJ_Ground,
+    }
+
+    	item JarofGrapefruitJamOpen
+    {
+		DisplayName = Opened Jar of Grapefruit Jam,
+		DisplayCategory = Food,
+		Type = Food,
+		CannedFood = TRUE,
+		Weight = 0.8,
+		EatType = can,
+		EvolvedRecipe = Beverage:2;Beverage2:2;Cake:5;Sandwich:2;Sandwich Baguette:2;FruitSalad:2;HotDrink:2;HotDrinkRed:2;HotDrinkWhite:2;HotDrinkSpiffo:2;HotDrinkTea:2;Pancakes:2;Waffles:2;ConeIcecream:2;PieSweet:5;Toast:2;Oatmeal:2,
+		FoodType = NoExplicit,
+		EvolvedRecipeName = Grapefruit Jam,
+		ReplaceOnUse = EmptyJar,
+		DaysFresh = 9,
+		DaysTotallyRotten = 24,
+		HungerChange = -30,
+		UnhappyChange = -10,
+		Icon = OpenGrapefruitJam,
+		WorldStaticModel = OpenJarofGfJ_Ground,
+    }
+}

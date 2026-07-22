@@ -1,0 +1,113 @@
+module HBJ
+{
+    import
+    {
+        Base
+    }
+
+    model JarofAJ_Ground
+    {
+        mesh = JarofJam,
+        texture = JarofAJ,
+        scale = 0.40,
+    }
+
+        model JarofBeJ_Ground
+    {
+        mesh = JarofJam,
+        texture = JarofBeJ,
+        scale = 0.40,
+    }
+
+        model JarofBlJ_Ground
+    {
+        mesh = JarofJam,
+        texture = JarofBlJ,
+        scale = 0.40,
+    }
+
+        model JarofBluJ_Ground
+    {
+        mesh = JarofJam,
+        texture = JarofBluJ,
+        scale = 0.40,
+    }  
+
+        model JarofCJ_Ground
+    {
+        mesh = JarofJam,
+        texture = JarofCJ,
+        scale = 0.40,
+    } 
+
+        model JarofGfJ_Ground
+    {
+        mesh = JarofJam,
+        texture = JarofGfJ,
+        scale = 0.40,
+    }
+
+        model JarofLeJ_Ground
+    {
+        mesh = JarofJam,
+        texture = JarofLeJ,
+        scale = 0.40,
+    }
+
+        model JarofLiJ_Ground
+    {
+        mesh = JarofJam,
+        texture = JarofLiJ,
+        scale = 0.40,
+    } 
+
+        model JarofOJ_Ground
+    {
+        mesh = JarofJam,
+        texture = JarofOJ,
+        scale = 0.40,
+    }
+
+        model JarofPJ_Ground
+    {
+        mesh = JarofJam,
+        texture = JarofPJ,
+        scale = 0.40,
+    }
+
+        model JarofRJ_Ground
+    {
+        mesh = JarofJam,
+        texture = JarofRJ,
+        scale = 0.40,
+    }
+
+        model JarofSJ_Ground
+    {
+        mesh = JarofJam,
+        texture = JarofSJ,
+        scale = 0.40,
+    } 
+
+        model JarofWbJ_Ground
+    {
+        mesh = JarofJam,
+        texture = JarofWbJ,
+        scale = 0.40,
+    }  
+
+        model JarofGJ_Ground
+    {
+        mesh = JarofJam,
+        texture = JarofGJ,
+        scale = 0.40,
+    }
+
+        model OpenJarofAJ_Ground
+    {
+        mesh = JarofJam,
+        texture = OpenJarofAJ,
+        scale = 0.40,
+    }
+
+}

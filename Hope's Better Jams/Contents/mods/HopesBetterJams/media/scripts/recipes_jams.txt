@@ -1,0 +1,338 @@
+module Base
+{
+    recipe Open Jar of Apple Jam
+    {
+        JarofAppleJam,
+        
+        Result:JarofAppleJamOpen,
+        Time:20.0,
+        Category:Cooking,
+        OnGiveXP:Recipe.OnGiveXP.None,
+    }
+
+    recipe Make Jar of Apple Jam
+    {
+        EmptyJar,
+        JarLid,
+        Apple=5,
+        WaterSaucepan;5,
+        [Recipe.GetItemTypes.Sugar];2,
+        
+        Result:JarofAppleJam,
+        Time:100.0,
+        Category:Cooking,
+        OnGiveXP:Recipe.OnGiveXP.Cooking5,
+    }
+
+        recipe Open Jar of Beautyberry Jam
+    {
+        JarofBeautyberryJam,
+        
+        Result:JarofBeautyberryJamOpen,
+        Time:20.0,
+        Category:Cooking,
+        OnGiveXP:Recipe.OnGiveXP.None,
+    }
+
+        recipe Make Jar of Beautyberry Jam
+    {
+        EmptyJar,
+        JarLid,
+        BeautyBerry=5,
+        WaterSaucepan;5,
+        [Recipe.GetItemTypes.Sugar];2,
+        
+        Result:JarofBeautyberryJam,
+        Time:100.0,
+        Category:Cooking,
+        OnGiveXP:Recipe.OnGiveXP.Cooking5,
+    }
+
+        recipe Open Jar of Blackberry Jam
+    {
+        JarofBlackberryJam,
+        
+        Result:JarofBlackberryJamOpen,
+        Time:20.0,
+        Category:Cooking,
+        OnGiveXP:Recipe.OnGiveXP.None,
+    }
+
+        recipe Make Jar of Blackberry Jam
+    {
+        EmptyJar,
+        JarLid,
+        BerryBlack=5,
+        WaterSaucepan;5,
+        [Recipe.GetItemTypes.Sugar];2,
+        
+        Result:JarofBlackberryJam,
+        Time:100.0,
+        Category:Cooking,
+        OnGiveXP:Recipe.OnGiveXP.Cooking5,
+    }
+
+        recipe Open Jar of Blueberry Jam
+    {
+        JarofBlueberryJam,
+        
+        Result:JarofBlueberryJamOpen,
+        Time:20.0,
+        Category:Cooking,
+        OnGiveXP:Recipe.OnGiveXP.None,
+    }
+
+        recipe Make Jar of Blueberry Jam
+    {
+        EmptyJar,
+        JarLid,
+        BerryBlue=5,
+        WaterSaucepan;5,
+        [Recipe.GetItemTypes.Sugar];2,
+        
+        Result:JarofBlueberryJam,
+        Time:100.0,
+        Category:Cooking,
+        OnGiveXP:Recipe.OnGiveXP.Cooking5,
+    }
+
+        recipe Open Jar of Cherry Jam
+    {
+        JarofCherryJam,
+        
+        Result:JarofCherryJamOpen,
+        Time:20.0,
+        Category:Cooking,
+        OnGiveXP:Recipe.OnGiveXP.None,
+    }
+
+        recipe Make Jar of Cherry Jam
+    {
+        EmptyJar,
+        JarLid,
+        Cherry=5,
+        WaterSaucepan;5,
+        [Recipe.GetItemTypes.Sugar];2,
+        
+        Result:JarofCherryJam,
+        Time:100.0,
+        Category:Cooking,
+        OnGiveXP:Recipe.OnGiveXP.Cooking5,
+    }
+
+        recipe Open Jar of Grapefruit Jam
+    {
+        JarofGrapefruitJam,
+        
+        Result:JarofGrapefruitJamOpen,
+        Time:20.0,
+        Category:Cooking,
+        OnGiveXP:Recipe.OnGiveXP.None,
+    }
+
+        recipe Make Jar of Grapefruit Jam
+    {
+        EmptyJar,
+        JarLid,
+        Grapefruit=5,
+        WaterSaucepan;5,
+        [Recipe.GetItemTypes.Sugar];2,
+        
+        Result:JarofGrapefruitJam,
+        Time:100.0,
+        Category:Cooking,
+        OnGiveXP:Recipe.OnGiveXP.Cooking5,
+    }
+
+        recipe Open Jar of Grape Jam
+    {
+        JarofGrapeJam,
+        
+        Result:JarofGrapeJamOpen,
+        Time:20.0,
+        Category:Cooking,
+        OnGiveXP:Recipe.OnGiveXP.None,
+    }
+
+        recipe Make Jar of Grape Jam
+    {
+        EmptyJar,
+        JarLid,
+        Grapes=5,
+        WaterSaucepan;5,
+        [Recipe.GetItemTypes.Sugar];2,
+        
+        Result:JarofGrapeJam,
+        Time:100.0,
+        Category:Cooking,
+        OnGiveXP:Recipe.OnGiveXP.Cooking5,
+    }
+
+        recipe Open Jar of Lemon Jam
+    {
+        JarofLemonJam,
+        
+        Result:JarofLemonJamOpen,
+        Time:20.0,
+        Category:Cooking,
+        OnGiveXP:Recipe.OnGiveXP.None,
+    }
+
+        recipe Make Jar of Lemon Jam
+    {
+        EmptyJar,
+        JarLid,
+        Lemon=5,
+        WaterSaucepan;5,
+        [Recipe.GetItemTypes.Sugar];2,
+        
+        Result:JarofLemonJam,
+        Time:100.0,
+        Category:Cooking,
+        OnGiveXP:Recipe.OnGiveXP.Cooking5,
+    }
+
+        recipe Open Jar of Lime Jam
+    {
+        JarofLimeJam,
+        
+        Result:JarofLimeJamOpen,
+        Time:20.0,
+        Category:Cooking,
+        OnGiveXP:Recipe.OnGiveXP.None,
+    }
+
+        recipe Make Jar of Lime Jam
+    {
+        EmptyJar,
+        JarLid,
+        Lime=5,
+        WaterSaucepan;5,
+        [Recipe.GetItemTypes.Sugar];2,
+        
+        Result:JarofLimeJam,
+        Time:100.0,
+        Category:Cooking,
+        OnGiveXP:Recipe.OnGiveXP.Cooking5,
+    }
+
+        recipe Open Jar of Orange Jam
+    {
+        JarofOrangeJam,
+        
+        Result:JarofOrangeJamOpen,
+        Time:20.0,
+        Category:Cooking,
+        OnGiveXP:Recipe.OnGiveXP.None,
+    }
+
+        recipe Make Jar of Orange Jam
+    {
+        EmptyJar,
+        JarLid,
+        Orange=5,
+        WaterSaucepan;5,
+        [Recipe.GetItemTypes.Sugar];2,
+        
+        Result:JarofOrangeJam,
+        Time:100.0,
+        Category:Cooking,
+        OnGiveXP:Recipe.OnGiveXP.Cooking5,
+    }
+
+        recipe Open Jar of Pear Jam
+    {
+        JarofPearJam,
+        
+        Result:JarofPearJamOpen,
+        Time:20.0,
+        Category:Cooking,
+        OnGiveXP:Recipe.OnGiveXP.None,
+    }
+
+        recipe Make Jar of Pear Jam
+    {
+        EmptyJar,
+        JarLid,
+        Pear=5,
+        WaterSaucepan;5,
+        [Recipe.GetItemTypes.Sugar];2,
+        
+        Result:JarofPearJam,
+        Time:100.0,
+        Category:Cooking,
+        OnGiveXP:Recipe.OnGiveXP.Cooking5,
+    }
+
+        recipe Open Jar of Rosehip Jam
+    {
+        JarofRosehipJam,
+        
+        Result:JarofRosehipJamOpen,
+        Time:20.0,
+        Category:Cooking,
+        OnGiveXP:Recipe.OnGiveXP.None,
+    }
+
+        recipe Make Jar of Rosehip Jam
+    {
+        EmptyJar,
+        JarLid,
+        Rosehips=5,
+        WaterSaucepan;5,
+        [Recipe.GetItemTypes.Sugar];2,
+        
+        Result:JarofRosehipJam,
+        Time:100.0,
+        Category:Cooking,
+        OnGiveXP:Recipe.OnGiveXP.Cooking5,
+    }
+
+        recipe Open Jar of Strawberry Jam
+    {
+        JarofStrawberrieJam,
+        
+        Result:JarofStrawberrieJamOpen,
+        Time:20.0,
+        Category:Cooking,
+        OnGiveXP:Recipe.OnGiveXP.None,
+    }
+
+        recipe Make Jar of Strawberry Jam
+    {
+        EmptyJar,
+        JarLid,
+        Strewberrie=5,
+        WaterSaucepan;5,
+        [Recipe.GetItemTypes.Sugar];2,
+        
+        Result:JarofStrawberrieJam,
+        Time:100.0,
+        Category:Cooking,
+        OnGiveXP:Recipe.OnGiveXP.Cooking5,
+    }
+
+        recipe Open Jar of Winterberry Jam
+    {
+        JarofWinterberryJam,
+        
+        Result:JarofWinterberryJamOpen,
+        Time:20.0,
+        Category:Cooking,
+        OnGiveXP:Recipe.OnGiveXP.None,
+    }
+
+        recipe Make Jar of Winterberry Jam
+    {
+        EmptyJar,
+        JarLid,
+        WinterBerry=5,
+        WaterSaucepan;5,
+        [Recipe.GetItemTypes.Sugar];2,
+        
+        Result:JarofWinterberryJam,
+        Time:100.0,
+        Category:Cooking,
+        OnGiveXP:Recipe.OnGiveXP.Cooking5,
+    }
+}
