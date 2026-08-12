@@ -1,0 +1,12 @@
+version=1
+id=3782109824
+title=Hope's Better Boulders (B42)
+description=[h1]Hope's Better Boulders[/h1]
+description=
+description=Have you ever wanted to clear those useless boulders taking up space while getting some actual resources in return? Now you can! This mod allows you to mine the decorative boulders in the world using a Pickaxe.
+description=
+description=[h2]Features:[/h2] [list] [] [b]Fully B42 Compatible:[/b] Developed specifically to work with Project Zomboid Build 42. [] [b]Dynamic Mining:[/b] Simply right-click on any boulder or rock cluster in the game and select "Mine Boulder" to break it down. [] [b]Size-Based Loot:[/b] The amount of stone you get depends on the size of the rock! Small rocks yield 1 stone, medium clusters yield 3-4, and giant boulders yield 6-7 stones. [] [b]Realistic Fatigue & Strain:[/b] Mining is hard work! Breaking rocks dynamically drains your endurance and causes muscle strain on your arms and back depending on the boulder's size. [] [b]Two-Handed Requirement:[/b] You can't mine a giant rock with one hand! The mod forces your character to equip the pickaxe in both hands before striking, adding to the realism. [] [b]Time Scaling:[/b] The time it takes to break a boulder scales with its size and your character's Strength level. [/list]
+description=
+description=[h2]Requirements:[/h2] You must have a [b]PickAxe[/b] to mine boulders.
+tags=Build 42;Farming;Realistic
+visibility=public
